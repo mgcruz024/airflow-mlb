@@ -20,7 +20,8 @@
 - json
 - pickle
 - numpy 
-- pandas as pd
+- pandas
+- sci-kit learn
 - psycopg2
 
 *PostgreSQL*
