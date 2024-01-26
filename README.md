@@ -47,8 +47,10 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 ## Notes
 
 This project is ongoing, and I am constantly thinking of new ways to modernize my workflow. Tools and concepts that I plan on
-integrating in the future includes cloud storage (Redshift, Azure Data Lake, Amazon RDS, etc.) and analytics (Synapse Analytics, QuickSight,etc.) 
-and NoSQL databases to optimize the JSON raw extractions from the API. 
+integrating in the future includes: 
+- cloud storage (Redshift, Azure Data Lake, Amazon RDS, etc.)
+- cloud analytics (Synapse Analytics, QuickSight,etc.) 
+- NoSQL databases to optimize the JSON files extracted from the API
 
 Feedback would be greatly appreciated!
 
