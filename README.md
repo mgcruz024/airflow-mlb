@@ -18,6 +18,7 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 
 ## Diagram
 
+  <img src="mlb_airflow_diagram.png" alt="MLB Airflow Diagram">
 
 ## DAG Creation
 
