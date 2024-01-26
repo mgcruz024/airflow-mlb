@@ -48,7 +48,13 @@ Please refer to [this notebook](dag_creation.ipynb) for the creation of each DAG
      - cp /{file_path}/mlb_dag.py airflow/dags
 5. Initialize Airflow and run the dag.
 
+## Notes
 
+This project is ongoing, and I am constantly thinking of new ways to modernize my workflow. Tools and concepts that I plan on
+integrating in the future includes cloud storage (Redshift, Azure Data Lake, Amazon RDS, etc.) and analytics (Synapse Analytics, QuickSight,etc.) 
+and NoSQL databases to optimize the JSON raw extractions from the API. 
+
+Feedback would be greatly appreciated!
 
 
 
