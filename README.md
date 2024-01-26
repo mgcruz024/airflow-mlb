@@ -12,9 +12,12 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 
 ## Apache Airflow
 
--  Automated a 5-stage data pipeline to track player metrics using MLB Data API and Apache Airflow. 
-- Processed real-time data, structured JSON results, checked for quality, and analyzed pitching and hitting statistics with pandas. 
-- Used PostgreSQL to store all processed and aggregated player information.
+[Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html) is an open-source Workflow Management System that allows you to define tasks and their dependencies as code. It then executes these tasks on a regular schedule and distributes the task 
+execution across worker processes. 
+
+In Airflow, workflows are made up of tasks that have directional dependencies. These dependencies are represented using directed acyclic graphs (DAGs). Each node in the graph is a 
+task, and edges define the dependencies among the tasks. At a high level, a DAG can be thought of as a container that holds tasks and their dependencies, and sets the context for 
+when and how those tasks should be executed.
 
 ## Diagram
 
