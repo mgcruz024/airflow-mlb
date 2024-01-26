@@ -1,5 +1,5 @@
 
-# Automating an MLB Data Pipeline using Apache Airflow
+# Automating an MLB Data Pipeline using Apache Airflow (via WSL 2.0)
   <img src="mlb_logo.png" alt="MLB logo">
 
 ## Overview
@@ -15,8 +15,13 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 -  Automated a 5-stage data pipeline to track player metrics using MLB Data API and Apache Airflow. 
 - Processed real-time data, structured JSON results, checked for quality, and analyzed pitching and hitting statistics with pandas. 
 - Used PostgreSQL to store all processed and aggregated player information.
-- Please refer to [this notebook](dag_creation.ipynb) for the creation of DAG's and pipeline architecture. 
 
+## Diagram
+
+
+## DAG Creation
+
+Please refer to [this notebook](dag_creation.ipynb) for the creation of each DAG and the logic behind the pipeline's architecture. 
 
 ## Packages Used
 
