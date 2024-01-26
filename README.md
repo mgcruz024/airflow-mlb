@@ -10,11 +10,6 @@ decisions such as lineup changes, trades, drafting, etc., all of which are core 
 
 In this project, I attempt to answer the new-age question, "How are these stats getting fed to me in real-time?" by creating and automating a 5-stage data pipeline that provides users with a continuous feed of player analysis throughout the season. 
 
-## Note
-
-As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to [this document](https://github.com/mgcruz024/airflow-mlb/blob/037a0c74b98583c6b80b7f50c14d8eb71132f81f/Running%20Airflow%20on%20WSL.txt) for setting up Apache Airflow Windows Subset via Linux (WSL) prior to running the scripts.
-
-
 ## Apache Airflow
 
 -  Automated a 5-stage data pipeline to track player metrics using MLB Data API and Apache Airflow. 
@@ -37,6 +32,15 @@ As of the creation of this project, there is no Windows compatibility for Airflo
 
 *PostgreSQL*
 - SQL
+
+## How to Use
+
+1. Clone the repository
+2. As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to [this document](https://github.com/mgcruz024/airflow-mlb/blob/037a0c74b98583c6b80b7f50c14d8eb71132f81f/Running%20Airflow%20on%20WSL.txt) for setting up Apache Airflow via Windows Subset via Linux (WSL) prior to running the scripts.
+3. Create a "dags" folder inside of your airflow folder then copy the dag python script into this new dags folder.
+     - mkdir airflow/dags
+     - cp /{file_path}/mlb_dag.py airflow/dags
+5. Initialize Airflow and run the dag.
 
 
 
