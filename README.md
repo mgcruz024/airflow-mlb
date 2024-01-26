@@ -8,7 +8,7 @@ It makes perfect sense once you realize that baseball spearheaded sports analyti
 since its creation. As portrayed in the legendary movie *Moneyball* (10/10, must watch before looking through this project), managers use statistical models based on player performances to make 
 decisions such as lineup changes, trades, drafting, etc., all of which are core functions in running an organization.
 
-In this project, I attempt to answer the new-age question, "How are these stats getting fed to me in real-time?" by creating and automating a 5-stage data pipeline that provides users with a continuous feed of player analysis throughout the season. 
+In this project, I attempt to answer the new-age question, "How are these stats getting fed to me in real-time?" by [creating and automating](dag_creation.ipynb) a 5-stage data pipeline that provides users with a continuous feed of player analysis throughout the season. 
 
 ## Apache Airflow
 
@@ -19,10 +19,6 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 ## Diagram
 
   <img src="mlb_airflow_diagram.png" alt="MLB Airflow Diagram">
-
-## DAG Creation
-
-Please refer to [this notebook](dag_creation.ipynb) for the creation of each DAG and the logic behind the pipeline's architecture. 
 
 ## Packages Used
 
