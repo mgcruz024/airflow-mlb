@@ -12,7 +12,7 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 
 ## Note
 
-As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to [this document](https://github.com/mgcruz024/airflow-mlb/blob/037a0c74b98583c6b80b7f50c14d8eb71132f81f/Running%20Airflow%20on%20WSL.txt) for setting up Apache Airflow Windows Subset via Linux (WSL) prior to running the DAGs.
+As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to [this document](https://github.com/mgcruz024/airflow-mlb/blob/037a0c74b98583c6b80b7f50c14d8eb71132f81f/Running%20Airflow%20on%20WSL.txt) for setting up Apache Airflow Windows Subset via Linux (WSL) prior to running the scripts.
 
 
 ## Apache Airflow
