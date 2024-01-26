@@ -1,5 +1,5 @@
 
-# Automating an MLB Data Pipeline using Apache Airflow (via WSL 2.0)
+# Automating a 5-stage MLB Data Pipeline using Apache Airflow (via WSL 2.0)
   <img src="mlb_logo.png" alt="MLB logo">
 
 ## Overview
