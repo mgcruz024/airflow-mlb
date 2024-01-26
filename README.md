@@ -38,8 +38,8 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 
 ## Notes
 
-As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to this document for setting up 
-Windows Subset for Linux (WSL) prior to running the DAGS on Airflow.
+As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to [this document](Running Airflow on WSL.txt) for setting up 
+Apache Airflow Windows Subset for Linux (WSL) prior to running the DAGS.
 
 
 
