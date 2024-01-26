@@ -19,7 +19,7 @@ In Airflow, workflows are made up of tasks that have directional dependencies. T
 task, and edges define the dependencies among the tasks. At a high level, a DAG can be thought of as a container that holds tasks and their dependencies, and sets the context for 
 when and how those tasks should be executed.
 
-## Workflow
+## Diagram
 
   <img src="mlb_airflow_diagram.png" alt="MLB Airflow Diagram">
 
