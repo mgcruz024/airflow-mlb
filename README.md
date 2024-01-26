@@ -10,7 +10,7 @@ decisions such as lineup changes, trades, drafting, etc., all of which are core 
 
 In this project, I attempt to answer the new-age question, "How are these stats getting fed to me in real-time?" by creating and automating a 5-stage data pipeline that provides users with a continuous feed of player analysis throughout the season. 
 
-
+## Apache Airflow
 
 
 
@@ -35,3 +35,17 @@ In this project, I attempt to answer the new-age question, "How are these stats 
 
 *PostgreSQL*
 - SQL
+
+## Notes
+
+As of the creation of this project, there is no Windows compatibility for Airflow. Please refer to this document for setting up 
+Windows Subset for Linux (WSL) prior to running the DAGS on Airflow.
+
+
+
+
+
+
+
+
+
